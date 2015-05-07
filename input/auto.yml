@@ -1,0 +1,125 @@
+circle: 23
+cost: 11600
+user: auto
+
+list:
+- loc: A14a
+  name: Lunade Luna
+  book: []
+
+- loc: A20ab
+  name: "マサルドットコム"
+  book:
+  - name: "透感少女"
+    prize: 500
+  - name: "桜色dyeing"
+    prize: 500
+
+- loc: A28b
+  name: SWAY WIND
+  book:
+  - name: YORU no SAKENOMI -纏-
+
+- loc: B01a
+  name: "弐維鏡像"
+  book: []
+
+- loc: B28b
+  name: vita
+  book:
+  - name: ANEMOS
+
+- loc: D07b
+  name: "ひとみしり"
+  book: []
+
+- loc: D12a
+  name: "ちあまーと！"
+  book:
+  - name: Little
+    prize: 500
+
+- loc: E26a
+  name: "秋雲"
+  book:
+  - name: "イラスト集"
+
+- loc: E35a
+  name: Blue soaproot
+  book:
+  - name: TarotCollection
+    prize: 1000
+
+- loc: E42a
+  name: "サバトラブルウ"
+  book:
+  - name: "イラスト集"
+
+- loc: F29a
+  name: "ワタガミ"
+  book: []
+
+- loc: F55a
+  name: "切切枚"
+  book:
+  - name: "切り絵集"
+    prize: 400
+
+- loc: J11b
+  name: "あまず"
+  book: []
+
+- loc: N26a
+  name: A.M.A
+  book:
+  - name: Crimson Flower
+    prize: 700
+
+- loc: N35b
+  name: "虹彩ヘリコイド"
+  book:
+  - name: "東方遊画帖 地"
+    prize: 1000
+
+- loc: "あ24b"
+  name: "劇毒少女"
+  book:
+  - name: "緋想天イラスト集"
+
+- loc: "い09a"
+  name: dBu music
+  book:
+  - name: "新譜 (あれば)"
+  - name: "ふたつの子午線 Orthogonal parallel line (あれば)"
+    prize: 500
+
+- loc: "い44a"
+  name: "喫茶・アンダンテ"
+  book:
+  - name: STELLA
+
+- loc: "そ42a"
+  name: EnHANCE HEART
+  book:
+  - name: CONTRAIL 4th
+
+- loc: "そ42b"
+  name: "タケミカヅキ、"
+  book: []
+
+- loc: "つ02b"
+  name: "怠惰猫"
+  book:
+  - name: "少名ちゃん冒険合同Keep Walking！"
+
+- loc: "て21a"
+  name: "有造無造"
+  book:
+  - name: "アクリル掛け時計"
+    prize: 6000
+
+- loc: "て22b"
+  name: "わいるどらびっつ"
+  book:
+  - name: "ナズとらペンデュラム"
+    prize: 500

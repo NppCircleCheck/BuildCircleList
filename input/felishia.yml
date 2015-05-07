@@ -1,0 +1,62 @@
+user: felishia
+
+list:
+- loc: "あ02b"
+  name: "粟米湯"
+  pixiv: http://www.pixiv.net/member_illust.php?id=581502
+  book:
+  - name: "愛情たくさんつめこみました!!"
+    prize: 700
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50020035
+
+- loc: "け29a"
+  name: "あと7分"
+  pixiv: http://www.pixiv.net/member.php?id=173578
+  book:
+  - name: "アリストセクス！"
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50201716
+
+- loc: "す08b"
+  name: "Area-S"
+  pixiv: http://www.pixiv.net/member.php?id=70711
+  book:
+  - name: "寅丸正邪ギャグ本？"
+
+- loc: "す45b"
+  name: "安達貴族"
+  pixiv: http://www.pixiv.net/member.php?id=239510
+  book:
+  - name: "付喪例大祭"
+    prize: 500
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=49943450
+
+- loc: "A17ab"
+  name: "黄昏フロンティア"
+  book:
+  - name: "東方深秘録"
+    prize: 2000
+    url: http://www.tasofro.net/touhou145/index.html
+
+- loc: "A31b"
+  name: "GRINP"
+  pixiv: http://www.pixiv.net/member.php?id=159912
+  book:
+  - name: "新深夜雀食堂"
+    prize: 600
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50071845
+
+- loc: "H19a"
+  name: "幻想の艦隊"
+  pixiv: http://www.pixiv.net/member.php?id=384319
+  description: "既刊あるだけ"
+  book:
+  - name: "幽々子のグルメシリーズ"
+
+- loc: "H22a"
+  name: "Pumpkin City"
+  pixiv: http://www.pixiv.net/member.php?id=245287
+  book:
+  - name: "幽々子は今日もがんばるぞい！"
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50216273
+  - name: "和心（冬既刊）"
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=47783118

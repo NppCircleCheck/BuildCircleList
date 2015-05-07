@@ -1,0 +1,14 @@
+template: template\reitai12.html
+output: reitai12.html
+input: [input\auto.yml,input\nplusplus.yml,input\felishia.yml]
+
+double:
+- auto:
+    nplusplus: autoplus
+    felishia: autofeli
+- nplusplus:
+    auto: autoplus
+    felishia: aplusplus
+- felishia:
+    auto: autofeli
+    nplusplus: aplusplus
