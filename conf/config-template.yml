@@ -1,6 +1,7 @@
 template: template\reitai12.html
 output: reitai12.html
-input: [input\auto.yml,input\nplusplus.yml,input\felishia.yml]
+base: yaml
+input: [auto.yml,nplusplus.yml,felishia.yml]
 
 double:
 - auto:

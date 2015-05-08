@@ -69,7 +69,7 @@ object SaveHTML {
       books.children.last.remove
     }
     /* 価格情報 */
-    val prises = document.createElement("td")
+    val prises = document.createElement("td").attr("align","right")
     circle.books.map(book => prises.appendText(book.prize match {
       case Some(prise) => prise + "円"
       case None => "不明"

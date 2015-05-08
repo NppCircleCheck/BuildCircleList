@@ -11,6 +11,7 @@ import scala.collection.JavaConversions._
 class Config {
   @BeanProperty var template: String = ""
   @BeanProperty var output: String = ""
+  @BeanProperty var base: String = ""
   @BeanProperty var input: java.util.List[String] = null
   @BeanProperty var double: java.util.List[java.util.Map[String, Object]] = null
   /**
@@ -29,6 +30,16 @@ class Config {
       case Some(ud) => Option(ud.asInstanceOf[java.util.Map[String, String]].get(user2))
       case None => None
     }
+  }
+
+  /**
+   * 入力YAMLのパスリスト
+   */
+  def getInputPaths = {
+    val immutable = input.toList
+    immutable.map(in =>
+      base + File.separator + in
+    )
   }
 }
 

@@ -16,14 +16,12 @@ import model.Circle
 
 /**
  * 複数人のyamlリストをマージしてhtml出力する
- *
- * TODO: yaml追記
  */
 object BCLMain {
   val config: Config = LoadConfig.config
   def main(args: Array[String]):Unit = {
     SaveHTML.saveHTML(
-      mergeList(config.input.map(input => {
+      mergeList(config.getInputPaths.map(input => {
         loadYaml(input)
       }))
     )
