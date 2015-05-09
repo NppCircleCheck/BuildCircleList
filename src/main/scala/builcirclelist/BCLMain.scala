@@ -62,10 +62,7 @@ object BCLMain {
     /* スペースが重複しているところをマージ */
     val listGroup = list.circles.groupBy(_.space)
     val circles = CheckList(listGroup.map( circle => {
-      if(circle._2.size > 1)
-        circle._2.reduce((c1,c2) => c1.mergeCircle(c2))
-      else
-        circle._2(0)
+      circle._2.reduce((c1,c2) => c1.mergeCircle(c2))
     }).toSeq)
     CheckList(circles.circles.sortWith((o1, o2) => o1.space.compareTo(o2.space) < 0))
   }
