@@ -1,11 +1,20 @@
 circle: 23
-cost: 11600
+cost: 17300
 user: auto
-
 list:
+- loc: A10a
+  name: poprication
+  book:
+  - name: "レイマリ本"
+    prize: 400
+
 - loc: A14a
   name: Lunade Luna
-  book: []
+  book:
+  - name: "東方MEGANE 2014"
+    prize: 500
+  - name: TOHO MEGANE :ReDesign+
+    prize: 500
 
 - loc: A20ab
   name: "マサルドットコム"
@@ -15,34 +24,28 @@ list:
   - name: "桜色dyeing"
     prize: 500
 
+- loc: A21a
+  name: eterna-radiare
+  book:
+  - name: "イラスト集単品"
+    prize: 500
+
 - loc: A28b
   name: SWAY WIND
   book:
   - name: YORU no SAKENOMI -纏-
 
-- loc: B01a
-  name: "弐維鏡像"
-  book: []
-
 - loc: B28b
   name: vita
   book:
   - name: ANEMOS
-
-- loc: D07b
-  name: "ひとみしり"
-  book: []
+    prize: 800
 
 - loc: D12a
   name: "ちあまーと！"
   book:
   - name: Little
     prize: 500
-
-- loc: E26a
-  name: "秋雲"
-  book:
-  - name: "イラスト集"
 
 - loc: E35a
   name: Blue soaproot
@@ -54,10 +57,13 @@ list:
   name: "サバトラブルウ"
   book:
   - name: "イラスト集"
+    prize: 1000
 
 - loc: F29a
   name: "ワタガミ"
-  book: []
+  book:
+  - name: Primula
+    prize: 400
 
 - loc: F55a
   name: "切切枚"
@@ -65,9 +71,16 @@ list:
   - name: "切り絵集"
     prize: 400
 
-- loc: J11b
-  name: "あまず"
-  book: []
+- loc: K20b
+  name: 1年3組たかはる
+  book:
+  - name: "東方水墨歌集"
+    prize: 600
+
+- loc: L16a
+  name: "松吉屋"
+  book:
+  - name: VIERGE
 
 - loc: N26a
   name: A.M.A
@@ -85,11 +98,11 @@ list:
   name: "劇毒少女"
   book:
   - name: "緋想天イラスト集"
+    prize: 500
 
 - loc: "い09a"
   name: dBu music
   book:
-  - name: "新譜 (あれば)"
   - name: "ふたつの子午線 Orthogonal parallel line (あれば)"
     prize: 500
 
@@ -105,7 +118,9 @@ list:
 
 - loc: "そ42b"
   name: "タケミカヅキ、"
-  book: []
+  book:
+  - name: Little Briar-Rose いばらの森の眠り姫
+    prize: 500
 
 - loc: "つ02b"
   name: "怠惰猫"
@@ -122,4 +137,11 @@ list:
   name: "わいるどらびっつ"
   book:
   - name: "ナズとらペンデュラム"
+    prize: 500
+
+- loc: "す08b"
+  name: "Area-S"
+  pixiv: http://www.pixiv.net/member.php?id=70711
+  book:
+  - name: "ハローハローアイムヒアー"
     prize: 500

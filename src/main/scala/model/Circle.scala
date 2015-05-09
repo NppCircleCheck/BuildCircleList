@@ -3,6 +3,8 @@ package model
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Node
 import org.jsoup.nodes.TextNode
+import config.LoadConfig
+import config.Config
 
 /**
  * サークル情報
@@ -18,6 +20,35 @@ case class Circle(
   val web: Option[String],         /* webサイトURL */
   val domo: Option[Boolean]        /* 挨拶回りサークルかどうか */
 ) {
+  val config: Config = LoadConfig.config
+  /**
+   * 複数人の同一スペースのサークルをマージ
+   *
+   * @params Circle circle 他人がチェックした同一スペースのサークル情報
+   */
+  def mergeCircle(circle: Circle): Circle = {
+    Circle(
+      config.getDoubleName(user, circle.user).get,
+      space,
+      name,
+      mergeBooks(circle),
+      mergeDescription(circle),
+      pixiv match {
+        case Some(p) => Some(p)
+        case None => circle.pixiv
+      },
+      twitter match {
+        case Some(t) => Some(t)
+        case None => circle.twitter
+      },
+      web match {
+        case Some(w) => Some(w)
+        case None => circle.web
+      },
+      Some(isDomo || circle.isDomo)
+    )
+  }
+
   /**
    * 備考欄のHTMLテキスト
    *

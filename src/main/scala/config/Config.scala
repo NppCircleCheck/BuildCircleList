@@ -15,9 +15,7 @@ class Config {
   @BeanProperty var input: java.util.List[String] = null
   @BeanProperty var double: java.util.List[java.util.Map[String, Object]] = null
   /**
-   * 二人が同一サークルをチェックした場合のユーザ名
-   *
-   * TODO: 三人以上が被った場合についての対処
+   * 二人以上が同一サークルをチェックした場合のユーザ名
    */
   def getDoubleName(user1: String, user2: String): Option[String] = {
     val immutable = double.toList.map(_.toMap)

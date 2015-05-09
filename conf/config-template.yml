@@ -13,3 +13,9 @@ double:
 - felishia:
     auto: autofeli
     nplusplus: aplusplus
+- aplusplus:
+    auto: trio
+- autofeli:
+    nplusplus: trio
+- autoplus:
+    felishia: trio

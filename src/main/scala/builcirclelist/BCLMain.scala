@@ -62,29 +62,10 @@ object BCLMain {
     /* スペースが重複しているところをマージ */
     val listGroup = list.circles.groupBy(_.space)
     val circles = CheckList(listGroup.map( circle => {
-      if(circle._2.size > 1){
-        Circle(config.getDoubleName(circle._2(0).user, circle._2(1).user).get,
-          circle._1,
-          circle._2(0).name,
-          circle._2(0).mergeBooks(circle._2(1)),
-          circle._2(0).mergeDescription(circle._2(1)),
-          circle._2(0).pixiv match {
-            case Some(p) => Some(p)
-            case None => circle._2(1).pixiv
-          },
-          circle._2(0).twitter match {
-            case Some(t) => Some(t)
-            case None => circle._2(1).twitter
-          },
-          circle._2(0).web match {
-            case Some(w) => Some(w)
-            case None => circle._2(1).web
-          },
-          Some(circle._2(0).isDomo || circle._2(1).isDomo)
-        )
-      } else {
+      if(circle._2.size > 1)
+        circle._2.reduce((c1,c2) => c1.mergeCircle(c2))
+      else
         circle._2(0)
-      }
     }).toSeq)
     CheckList(circles.circles.sortWith((o1, o2) => o1.space.compareTo(o2.space) < 0))
   }

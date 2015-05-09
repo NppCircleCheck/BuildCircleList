@@ -20,7 +20,8 @@ list:
   name: "Area-S"
   pixiv: http://www.pixiv.net/member.php?id=70711
   book:
-  - name: "寅丸正邪ギャグ本？"
+  - name: "ハローハローアイムヒアー"
+    prize: 500
 
 - loc: "す45b"
   name: "安達貴族"
@@ -30,12 +31,12 @@ list:
     prize: 500
     url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=49943450
 
-- loc: "A17ab"
-  name: "黄昏フロンティア"
-  book:
-  - name: "東方深秘録"
-    prize: 2000
-    url: http://www.tasofro.net/touhou145/index.html
+#- loc: "A17ab"
+#  name: "黄昏フロンティア"
+#  book:
+#  - name: "東方深秘録"
+#    prize: 2000
+#    url: http://www.tasofro.net/touhou145/index.html
 
 - loc: "A31b"
   name: "GRINP"
@@ -60,3 +61,38 @@ list:
     url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50216273
   - name: "和心（冬既刊）"
     url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=47783118
+
+- loc: "た42b"
+  name: "水ノ柵"
+  pixiv: http://www.pixiv.net/member.php?id=1044313
+  book:
+  - name: "りんのすけドタバタ戦闘漫画"
+
+- loc: "す14b"
+  name: "ドウガネブイブイ"
+  pixiv: http://www.pixiv.net/member.php?id=5045
+  book:
+  - name: "牡丹の記憶"
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50272004
+
+- loc: "N01a"
+  name: "たけのこ。"
+  pixiv: http://www.pixiv.net/member.php?id=446171
+  book:
+  - name: "心の錠の最之果て"
+    prize: 500
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50130233
+
+- loc: "お55ab"
+  name: "CARUOS THE CIRCLE's"
+  pixiv: http://www.pixiv.net/member.php?id=325469
+  book:
+  - name: "深淵に潜むFEELINGS(ルーミアEX小説)"
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50024584
+    
+- loc: "D35a"
+  name: "skyful"
+  pixiv: http://www.pixiv.net/member.php?id=22093
+  book:
+  - name: "MSJK-よせ集め-(O-54b, く-05aでも販売)"
+    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50185158
